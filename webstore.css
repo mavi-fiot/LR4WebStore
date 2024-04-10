@@ -87,6 +87,12 @@ footer {
     width: 100%;
     text-align: center;
     padding: 10px 0;
+    justify-content: space-around; /* Вирівнюємо елементи по горизонталі, розділяючи простір між ними */
+    align-items: center; /* Вирівнюємо елементи по вертикалі по центру */
+    text-align: center;
+    padding: 10px 20px;
+    margin-right: 120px; /* Додано відступ справа для уникнення перекриття з сайдбаром */
+
 }
 
 /* Селектори класів */
@@ -146,3 +152,33 @@ img[alt="FASHION_WEEK"] {
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 800px) {
+    .gallery {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(182, 58, 240);
+        color:rgb(23, 31, 146)
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(1, 14, 129);
+        color:rgb(182, 120, 253)
+    }
+    
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(1, 14, 129);
+        color:rgb(182, 120, 253)
+    }
+    
+}
