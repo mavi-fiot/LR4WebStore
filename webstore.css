@@ -183,17 +183,32 @@ img[alt="FASHION_WEEK"] {
     
 } */
 
-@media screen and (max-width: 799px) {
+/* @media screen and (max-width: 799px) {
     .gallery {
-        display: none; /* Ховаємо галерею при ширині екрану менше 800px */
-    }
-}
-
+        display: none; 
+} */
+/* 
 @media screen and (min-width: 800px) {
     .gallery {
         margin: 0;
         padding: 0;
-        background-color: rgb(182, 58, 240);
+        background-color: rgb(234, 240, 58);
         color: rgb(23, 31, 146);
     }
 }
+
+/* @media screen and (max-width: 499px) {
+    .gallery {
+        display: none; 
+    }
+} */
+
+/* @media screen and (max-width: 500px) { 
+    .gallery {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(58, 240, 73);
+        color: rgb(23, 31, 146);
+    }
+} */
+
