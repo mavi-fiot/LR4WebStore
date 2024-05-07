@@ -151,7 +151,7 @@ img[alt="FASHION_WEEK"] {
 * {
     box-sizing: border-box;
 }
-
+/* 
 @media screen and (min-width: 800px) {
     .gallery {
         margin: 0;
@@ -181,4 +181,19 @@ img[alt="FASHION_WEEK"] {
         color:rgb(182, 120, 253)
     }
     
+} */
+
+@media screen and (max-width: 799px) {
+    .gallery {
+        display: none; /* Ховаємо галерею при ширині екрану менше 800px */
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .gallery {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(182, 58, 240);
+        color: rgb(23, 31, 146);
+    }
 }
