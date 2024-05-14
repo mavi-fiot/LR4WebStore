@@ -41,7 +41,6 @@ body {
     /*transform-origin: right top; /* Точка обертання тексту */
 }
 
-/* Стилі для десктопної версії 
  @media screen and (min-width: 800px) {
     body {
         margin-right: 120px; 
@@ -55,7 +54,7 @@ body {
     }
 
     header {
-        background-color: rgb(170, 42, 172);
+        background-color: rgb(161, 154, 161);
         color: blue;
         position: fixed;
         top: 0;
@@ -65,34 +64,34 @@ body {
         justify-content: space-around; 
         align-items: center; 
         text-align: center;
-        padding: 10px 20px;
-        margin-right: 120px; 
+        padding: 5px 10px;
+        margin-right: 80px; 
     }
 
     .shop-button {
-        margin-right: 20px;
+        margin-right: 5px;
     }
 
     main {
-        padding: 20px;
-        margin-top: 150px; 
-        margin-bottom: 50px; 
-        margin-right: 120px; 
+        padding: 10px;
+        margin-top: 80px; 
+        margin-bottom: 20px; 
+        margin-right: 80px; 
     }
 
     footer {
-        background-color: #aa2aac;
+        background-color: #b0a3b1;
         color: rgb(23, 33, 229);
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
         text-align: center;
-        padding: 10px 0;
+        padding: 5px 0;
         justify-content: space-around; 
         align-items: center; 
         text-align: center;
-        padding: 10px 20px;
-        margin-right: 120px; 
+        padding: 5px 10px;
+        margin-right: 80px; 
     }
-} */
+} 

@@ -9,15 +9,30 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    width: 115px;
+    width: 85px;
     height: 100%;
     background-color: #aa2aac;
     color: rgb(23, 33, 229);
     text-align: center;
     padding: 10px 0;
-    /*overflow-y: auto; /* Дозволяє прокручувати сайдбар, якщо вміст не поміщається */
-    /*transform: rotate(-90deg); /* Поворот тексту на 90 градусів проти годинника */
-    /*transform-origin: right top; /* Точка обертання тексту */
+}
+
+.sidebar ul {
+    list-style: none; /* Забирає маркери списку */
+    padding: 0; /* Забирає внутрішні відступи у списку */
+    margin: 0; /* Забирає зовнішні відступи у списку */
+    display: flex;
+    flex-direction: column; /* Розміщення елементів у стовпчик зверху вниз */
+    align-items: center;
+}
+
+.sidebar ul li {
+    transform: rotate(-90deg); /* Поворот тексту на 90 градусів проти годинника */
+    /*transform-origin: center bottom; /* Точка обертання тексту */
+   /* flex-direction: column-reverse; /* Окремо обертаємо кожен елемент у стовпчику */
+    margin: 10px 0; /* Додано відступи між елементами списку */
+    padding: 0 5px; /* Додано внутрішні відступи */
+    white-space: nowrap; /* Заборонено перенесення тексту */
 }
 
 /* Селектори тегів */
