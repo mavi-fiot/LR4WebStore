@@ -166,44 +166,16 @@ img[alt="FASHION_WEEK"] {
 * {
     box-sizing: border-box;
 }
-/* 
-@media screen and (min-width: 800px) {
-    .gallery {
-        margin: 0;
-        padding: 0;
-        background-color: rgb(182, 58, 240);
-        color:rgb(23, 31, 146)
-    }
-    
-}
 
-@media screen and (max-width: 600px) {
+/* Для екранів до 500px */
+@media screen and (max-width: 500px) {
     .container {
         margin: 0;
         padding: 0;
         background-color: rgb(1, 14, 129);
-        color:rgb(182, 120, 253)
+        color: rgb(182, 120, 253);
     }
     
-    
-}
-
-@media screen and (min-width: 1000px) {
-    .container {
-        margin: 0;
-        padding: 0;
-        background-color: rgb(1, 14, 129);
-        color:rgb(182, 120, 253)
-    }
-    
-} */
-
-/* @media screen and (max-width: 799px) {
-    .gallery {
-        display: none; 
-} */
-/* 
-@media screen and (min-width: 800px) {
     .gallery {
         margin: 0;
         padding: 0;
@@ -212,18 +184,31 @@ img[alt="FASHION_WEEK"] {
     }
 }
 
-/* @media screen and (max-width: 499px) {
-    .gallery {
-        display: none; 
-    }
-} */
-
-/* @media screen and (max-width: 500px) { 
+/* Для екранів від 501px до 1000px */
+@media screen and (min-width: 501px) and (max-width: 1000px) {
     .gallery {
         margin: 0;
         padding: 0;
-        background-color: rgb(58, 240, 73);
+        background-color: rgb(182, 58, 240);
         color: rgb(23, 31, 146);
     }
-} */
+}
+
+/* Для екранів понад 1000px */
+@media screen and (min-width: 1001px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(1, 14, 129);
+        color: rgb(182, 120, 253);
+    }
+}
+
+/* Додатково, для екранів до 500px, ховати .gallery зображення */
+@media screen and (max-width: 500px) {
+    .gallery img {
+        display: none;
+    }
+}
+
 
